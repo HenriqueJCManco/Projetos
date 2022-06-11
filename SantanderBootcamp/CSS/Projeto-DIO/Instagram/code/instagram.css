@@ -1,0 +1,127 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: sans-serif;
+    font-size: 14px;
+}
+
+body{
+    width: 100%;
+    min-width: 100vh;
+    background-color: #FAFAFA;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.instagram-wrapper{
+    display: flex;
+    justify-content: start;
+    width: 60%;
+    height: 100%;
+}
+
+.instagram-celular{
+    display: flex;
+    align-items:center ;
+    justify-content: center;
+    width: 50%;
+}
+
+.instagram-celular img{
+    height: 50rem;
+    opacity: 1;
+}
+
+.instagram-continue{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 50%;
+    min-width: 34rem;
+}
+.profile-foto{
+    display: flex;
+    justify-content: center;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.perfil{
+    width: 14rem;
+    height: 14rem;
+}
+.curtida{
+    flex: auto;
+    width: 4rem;
+    height: 4rem;
+}
+.group{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+    width: 100%;
+    padding: 1.3rem 0;
+    border: 1px solid lightgray;
+}
+
+.group:nth-child(1){
+    min-width: 19rem;
+}
+
+.instagram-logo{
+    height: 5rem;
+}
+
+.instagram-login{
+    background-color: #0a50f2d2;
+    color: #fff;
+    padding: 8px;
+    margin-top: 1rem;
+    border-radius: 4px;
+}
+
+.instagram-logout{
+    color:#0095f6;
+    margin-top:1rem;
+}
+
+.sem-conta{
+    color: #bdababe9;
+}
+
+.blue{
+    color: #0095f6;
+}
+
+.obtenha-o-app{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 1.3rem 0;
+}
+
+.download{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    padding: 0.2rem;
+}
+
+.app-download{
+    height: 8rem;
+    width: 8rem;
+    background-size: cover;
+}
+.download{
+    align-items: flex-start;
+}
+
+.download a:nth-child(1){
+    background-image: url('./img/logo-instagram.png');
+}
